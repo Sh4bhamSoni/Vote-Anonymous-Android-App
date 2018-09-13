@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Statrt_vote"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Start Vote" />
+        <item
+            android:id="@+id/new_pool"
+            android:icon="@drawable/ic_action_name"
+            android:title="Create New Pool" />
+        <item
+            android:id="@+id/View_Status"
+            android:icon="@drawable/ic_recents"
+            android:title="View Status" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
